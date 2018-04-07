@@ -1,4 +1,4 @@
-package net.unix.mcpackets.client;
+package net.unix.mcpackets.login;
 
 import java.io.IOException;
 
