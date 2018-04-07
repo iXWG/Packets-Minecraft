@@ -9,8 +9,7 @@ import net.unix.mcpackets.PacketOutputStream;
 public class ClientKeepAlivePacket extends Packet {
 	public int keepAliveID;
 
-	public ClientKeepAlivePacket() {
-	}
+	public ClientKeepAlivePacket() { }
 
 	public ClientKeepAlivePacket(int keepAliveID) {
 		this.keepAliveID = keepAliveID;
